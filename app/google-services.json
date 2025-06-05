@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823866062563",
+    "project_id": "userinfoapp-ee8ed",
+    "storage_bucket": "userinfoapp-ee8ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823866062563:android:ac25b377a69c69795bf7d6",
+        "android_client_info": {
+          "package_name": "com.example.userinfoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2sgKQIxBi8Y8YFz1irkKE7i81mwFRsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

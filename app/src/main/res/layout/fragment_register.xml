@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterFragment" >
+
+    <EditText
+        android:id="@+id/editTextUserNameInRegisterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:hint="User Name"
+        />
+
+    <EditText
+        android:id="@+id/editTextPasswordInRegisterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:hint="Password"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumberInRegisterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="30sp"
+        android:hint="Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/editTextAddressInRegisterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textSize="30sp"
+        android:hint="Address"
+        />
+
+    <Button
+        android:id="@+id/registerButtonInRegisterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#FF7FBD"
+        android:text="Register"
+        android:textSize="30sp" />
+</LinearLayout>
