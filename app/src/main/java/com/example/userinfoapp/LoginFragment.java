@@ -88,6 +88,8 @@ public class LoginFragment extends Fragment {
                         .addOnCompleteListener(task -> {
                             if (task.isSuccessful()) {
                                 Navigation.findNavController(view).navigate (R.id.action_loginFragment_to_userDescriptionFragment);
+                                editUserName.setText("");
+                                editPassword.setText("");
                             } else {
                                 Toast.makeText(getContext(), "Login failed", Toast.LENGTH_LONG).show();
                             }

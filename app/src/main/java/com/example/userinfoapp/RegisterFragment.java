@@ -103,6 +103,10 @@ public class RegisterFragment extends Fragment {
                                         myRef.child(finalPhoneNumber).setValue(user);
 
                                         Navigation.findNavController(view).navigate(R.id.action_registerFragment_to_userDescriptionFragment);
+                                        editUserName.setText("");
+                                        editPhoneNumber.setText("");
+                                        editPassword.setText("");
+                                        editAddress.setText("");
                                     } else {
                                         Toast.makeText(getContext(), "Registration failed: " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
                                     }
