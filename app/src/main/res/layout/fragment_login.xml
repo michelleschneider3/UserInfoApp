@@ -4,43 +4,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LoginFragment">
+    tools:context=".LoginFragment"
+    android:background="@drawable/pink"
+    >
 
     <EditText
         android:id="@+id/userNameInput"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="User Name"
         android:inputType="text"
-        android:textSize="50sp" />
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/passwordInput"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textSize="50sp" />
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:backgroundTint="#FF7FBD"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:text="Login"
-        android:textSize="50sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:backgroundTint="#FF7FBD"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:text="Register"
-        android:textSize="50sp" />
+        android:textSize="20sp" />
 </LinearLayout>

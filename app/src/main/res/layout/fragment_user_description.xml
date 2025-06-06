@@ -4,50 +4,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".UserDescriptionFragment" >
+    tools:context=".UserDescriptionFragment"
+    android:background="@drawable/pink"
+    >
 
     <EditText
         android:id="@+id/editTextPhoneNumberInDescriptionFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="phone"
         android:hint="Phone Number"
-        android:textSize="40sp"
-        />
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextDescription"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
-        android:textSize="40sp"
         android:hint="Description"
-        />
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/addButton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF7FBD"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:text="Add"
-        android:textSize="40sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/showButton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF7FBD"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:text="Show"
-        android:textSize="40sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textViewDescription"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="40sp" />
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
 </LinearLayout>

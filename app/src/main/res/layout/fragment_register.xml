@@ -4,58 +4,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".RegisterFragment" >
+    tools:context=".RegisterFragment"
+    android:background="@drawable/pink"
+    >
 
     <EditText
         android:id="@+id/editTextUserNameInRegisterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
-        android:textSize="30sp"
         android:hint="User Name"
-        />
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextPasswordInRegisterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
-        android:textSize="30sp"
         android:hint="Password"
-        />
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextPhoneNumberInRegisterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="phone"
-        android:textSize="30sp"
         android:hint="Phone Number"
-        />
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextAddressInRegisterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPostalAddress"
-        android:textSize="30sp"
         android:hint="Address"
-        />
+        android:inputType="textPostalAddress"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/registerButtonInRegisterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:backgroundTint="#FF7FBD"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:text="Register"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 </LinearLayout>
